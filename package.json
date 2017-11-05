@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
+    "build": "rm -rf dist && webpack",
     "reset": "./reset.sh"
   },
   "devDependencies": {
